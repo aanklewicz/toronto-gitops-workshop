@@ -17,7 +17,10 @@ agent_options:
 controls:
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
+    - path: ../lib/macos/scripts/zoom-config.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
 software:
+  packages:
+    - path: ../lib/macos/software/zoom.yml
