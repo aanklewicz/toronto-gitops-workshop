@@ -19,6 +19,6 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Wicked Smart Fleet Sample
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
